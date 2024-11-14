@@ -1,0 +1,1 @@
+Estan los dos sistemas en el mismo main, se configura a traves del define STR, puede ser 1 para el sistema de 4 tareas o 2 para el sistema de 5 tareas. 
