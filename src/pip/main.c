@@ -120,7 +120,7 @@ int main( void ){
 	vTraceEnable( TRC_INIT );
 
 	/* Semaforo */
-    xSemaphore = xSemaphoreCreateBinary();
+    xSemaphore = xSemaphoreCreateMutex();
     xSemaphoreGive(xSemaphore);
 
     prvSetupHardware();
